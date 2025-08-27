@@ -59,16 +59,10 @@
 
 @media (min-width: 1024px) {
   .sign-up-banner__text {
-    font-size: 1.7rem;
-    margin: 8px;
+    margin: 7px;
   }
 
   .sign-up-banner__close {
-    right: 11rem;
-  }
-
-  .sign-up-banner__close svg {
-    width: 1.7rem;
-    height: 1.7rem;
+    right: 8.8rem;
   }
 }
