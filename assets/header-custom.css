@@ -21,7 +21,7 @@
 
 .search-modal__content {
   padding-left: 1rem;
-  padding-right: 1rem;
+  padding-right: 4rem;
 }
 
 .search .field::after,
@@ -93,5 +93,9 @@
 
   .search .reset__button::after {
     border: none;
+  }
+
+  .desktop-search .search-modal__close-button {
+    display: none;
   }
 }
