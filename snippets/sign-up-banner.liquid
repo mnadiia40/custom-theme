@@ -1,0 +1,17 @@
+{{ 'sign-up-banner.css' | asset_url | stylesheet_tag }}
+
+{% unless customer %}
+  <div class="sign-up-banner">
+    <p class="sign-up-banner__text">
+      Sign up and get 20% off to your first order.
+      <a class="sign-up-banner__link" href="{{ routes.account_login_url }}"><span>Sign Up Now</span></a>
+    </p>
+    <button class="sign-up-banner__close">
+      <span class="svg-wrapper">
+        {{- 'icon-close.svg' | inline_asset_content -}}
+      </span>
+    </button>
+  </div>
+{% endunless %}
+
+<script src="{{ 'sign-up-banner.js' | asset_url }}" defer="defer"></script>

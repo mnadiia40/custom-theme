@@ -1,0 +1,45 @@
+.sign-up-banner {
+  display: none;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up-banner--visible {
+  display: flex;
+}
+
+.sign-up-banner__text {
+  font-family: 'Satoshi', 'Assistant';
+  margin: 8px 30px 8px 0;
+  display: inline-block;
+  color: white;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.sign-up-banner__link {
+  color: white;
+}
+
+.sign-up-banner__close {
+  height: 4.4rem;
+  width: 4.4rem;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.sign-up-banner__close svg {
+  width: 1.7rem;
+  height: 1.7rem;
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  .sign-up-banner__close {
+    right: 11rem;
+  }
+}
