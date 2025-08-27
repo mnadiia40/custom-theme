@@ -15,7 +15,7 @@
       "type": "header",
       "settings": {
         "logo_position": "middle-left",
-        "mobile_logo_position": "center",
+        "mobile_logo_position": "left",
         "menu": "custom-main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
@@ -26,7 +26,7 @@
         "enable_language_selector": true,
         "enable_customer_avatar": true,
         "margin_bottom": 0,
-        "padding_top": 20,
+        "padding_top": 24,
         "padding_bottom": 20
       }
     }
