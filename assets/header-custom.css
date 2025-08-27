@@ -30,6 +30,11 @@
   border-radius: 20px;
 }
 
+.cart-count-bubble {
+  left: 0;
+  right: 1.2rem;
+}
+
 @media screen and (min-width: 768px) {
   header.header.custom-header.page-width {
     padding-left: 1.5rem;
